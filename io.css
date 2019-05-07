@@ -1,10 +1,24 @@
 body{
-            cursor:help;
-            background-color:#C6BDBD;
+            background-color:#FFFFFF;
         }
         #FT1{
-            font-style:oblique;
-            font-family:Consolas;
-            align-content:left;
-            font-size:17px;
+        font-family: "Andale Mono", "Monotype.com", monospace;
+        font-size: 12pt;
+        font-weight: bold;
         }
+#FT2{
+font-family:;
+font-size:18px;
+font-style:italic;
+}
+#FT3{
+font-family:monospace;
+font-size:9pt;
+font-style:oblique;
+}
+
+#HDR{
+            font-family:arial;
+            font-size:30px;
+            text-align:left;
+}
