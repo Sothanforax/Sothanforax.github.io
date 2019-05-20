@@ -18,7 +18,7 @@ font-style:oblique;
 align-content:bottom;
 }
 .float{overflow:hidden;}
-.float{
+.float h1{
             float:left;
             margin:0;
             font-family:arial;
