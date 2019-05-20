@@ -24,6 +24,7 @@ align-content:bottom;
             text-align:left;
 }
 #HLNK{
+            float:right;
             text-align:left;
             font-family:arial;
 }
