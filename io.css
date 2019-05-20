@@ -20,9 +20,9 @@ align-content:bottom;
 
 #HDR{
             float:left;
+            margin:0;
             font-family:arial;
             font-size:30px;
-            text-align:left;
 }
 #HLNK{
             float:right;
