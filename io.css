@@ -17,7 +17,7 @@ font-size:9pt;
 font-style:oblique;
 align-content:bottom;
 }
-
+.float{overflow:hidden;}
 .float{
             float:left;
             margin:0;
@@ -25,7 +25,7 @@ align-content:bottom;
             font-size:30px;
 }
 .float .info{
+            
             float:right;
             font-family:monospace;
-            text-align:right;
 }
