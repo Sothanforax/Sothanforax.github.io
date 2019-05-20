@@ -27,4 +27,5 @@ align-content:bottom;
 .float .info{
             float:right;
             font-family:monospace;
+            text-align:right;
 }
