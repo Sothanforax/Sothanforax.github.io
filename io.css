@@ -18,13 +18,13 @@ font-style:oblique;
 align-content:bottom;
 }
 
-#HDR{
+.float{
             float:left;
             margin:0;
             font-family:arial;
             font-size:30px;
 }
-#HLNK{
+.float .info{
             float:right;
             font-family:monospace;
 }
