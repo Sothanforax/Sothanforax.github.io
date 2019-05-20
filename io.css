@@ -19,12 +19,12 @@ align-content:bottom;
 }
 
 #HDR{
+            float:left;
             font-family:arial;
             font-size:30px;
             text-align:left;
 }
 #HLNK{
-            position:absolute;
-            right:0px;
+            float:right;
             font-family:monospace;
 }
