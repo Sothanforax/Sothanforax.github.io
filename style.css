@@ -1,0 +1,8 @@
+@font-face {
+	font-family: "MorePerfectDOSVGA";
+	
+	src: url("./fonts/MorePerfectDOSVGA.woff") format("woff"),
+	 url("./fonts/MorePerfectDOSVGA.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
