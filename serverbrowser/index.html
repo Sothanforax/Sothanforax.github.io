@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Server Browser</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="dew://lib/jquery-2.2.1.min.js"></script>
+    <!-- Window Resize-->
+    <script src="window-resize-1080.js"></script>
+    <link rel="stylesheet" type="text/css" href="window-resize-1080.css" />
+    <!--SweetAlert2-->
+    <script src="sweetalert2.all.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="page_content container">
+            <div class="server-list-header">
+                <p id="menuTitle">Server Browser</p>
+                <div></div>
+                <div id="serverSearch">
+                    <span id="population">test</span>
+                    <input id="server-list-filter" type="text" placeholder="search...">
+                    <button id="refresh">Refresh</button>
+                </div>
+                <div class="playlist-tabs">
+                    <ul id="playlistTabs">
+                        <li><a href="#all">All</a></li>
+                        <li><a href="#social">Social</a></li>
+                        <li><a href="#ranked">Ranked</a></li>
+                        <li><a href="#customs">Customs</a></li>
+                        <li><a href="#private">Private</a></li>
+                        <li><a href="#forge">Forge</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="page_footer gamepad-only">
+                <p><img src="dew://assets/buttons/XboxOne_A.png">Join Server</p>
+                <p><img src="dew://assets/buttons/XboxOne_X.png"><a onclick="handleUserRefresh()" id="refreshLegendLink">Refresh List</a></p>
+                <p><img src="dew://assets/buttons/XboxOne_Y.png"><a onclick="quickJoin()">Quick Join</a></p>
+                <p><img src="dew://assets/buttons/XboxOne_B.png"><a onclick="handleUserCloseBrowser()">Close</a></p>
+
+            </div>
+            <div id="server-list-wrap"></div>
+
+        </div>
+    </div>
+    <script crossorigin src="dew://lib/dew.js"></script>
+    <script crossorigin src="./ui.js"></script>
+    <script crossorigin src="./list-widget.js"></script>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="browser.js" type="text/javascript"></script>
+</body>
+
+</html>
